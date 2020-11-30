@@ -262,6 +262,10 @@
     color:white ;
     font-weight: bold;
 }
+.word1{
+    color:black ;
+    font-weight: bold;
+}
 #move {
     
     animation-name: fade-up;
