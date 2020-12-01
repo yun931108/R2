@@ -1,0 +1,331 @@
+.tp
+{
+    margin: 10px auto;
+    height:750px; 
+    width:1000px;
+    position:relative;
+}
+.tp div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.tp div
+{
+    -webkit-animation: round 80s linear infinite;
+    animation: round 80s linear infinite;    
+}
+
+@-webkit-keyframes round 
+{
+    1.25% 
+    {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    6.25% 
+    {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    7.5% 
+    {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+@keyframes round {
+    1.25% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    2.5% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    7.5% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+.tp div:nth-child(1) {
+        -webkit-animation-delay: 0s;
+                animation-delay: 0s;
+}
+.tp div:nth-child(2) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+}
+.tp div:nth-child(3) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+}
+.tp div:nth-child(4) {
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+}
+.tp div:nth-child(5) {
+    -webkit-animation-delay: 20s;
+            animation-delay: 20s;
+}
+.tp div:nth-child(6) {
+    -webkit-animation-delay: 25s;
+            animation-delay: 25s;
+}
+.tp div:nth-child(7) {
+    -webkit-animation-delay: 30s;
+            animation-delay: 30s;
+}
+.tp div:nth-child(8) {
+    -webkit-animation-delay: 35s;
+            animation-delay: 35s;
+}
+.tp div:nth-child(9) {
+    -webkit-animation-delay: 40s;
+            animation-delay: 40s;
+}
+.tp div:nth-child(10) {
+    -webkit-animation-delay: 45s;
+            animation-delay: 45s;
+}
+.tp div:nth-child(11) {
+    -webkit-animation-delay: 50s;
+            animation-delay: 50s;
+}
+.tp div:nth-child(12) {
+    -webkit-animation-delay: 55s;
+            animation-delay: 55s;
+}
+.tp div:nth-child(13) {
+    -webkit-animation-delay: 60s;
+            animation-delay: 60s;
+}
+.tp div:nth-child(14) {
+    -webkit-animation-delay: 65s;
+            animation-delay: 65s;
+}
+.tp div:nth-child(15) {
+    -webkit-animation-delay: 70s;
+            animation-delay: 70s;
+}
+.tp div:nth-child(16) {
+    -webkit-animation-delay: 75s;
+            animation-delay: 75s;
+}
+
+.infr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    margin:20px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 微軟正黑體;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 5.5px;
+    word-break: break-all;
+}
+.i{
+    
+    height:300px; 
+    width:300px;
+    position:relative;
+    
+}
+.name{
+    margin-top:20px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 微軟正黑體;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+
+
+}
+.myword{
+    margin-top:5px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.icon{
+    
+    
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    
+    padding: 20px;
+    font-family: 微軟正黑體;
+  }
+  
+ 
+  .sc {
+
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+   .row {
+    margin: 8px -16px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    justify-content: center;
+    display: flex;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  * {box-sizing: border-box}
+
+  .container {
+    width: 100%;
+    background-color:#d8e3e7;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+  }
+  
+  .coding1 {width: 50%; background-color: #8abcd1;}
+  .coding2 {width: 50%; background-color: #8abcd1;}
+  .coding3 {width: 80%; background-color: #8abcd1;}
+  .creating1 {width: 90%; background-color: #8abcd1;}
+  .creating2 {width: 80%; background-color: #8abcd1;}
+  .creating3 {width: 90%; background-color: #8abcd1;}
+  .notetaking1 {width: 80%; background-color: #8abcd1;}
+  .notetaking2 {width: 90%; background-color: #8abcd1;}
+  .notetaking3 {width: 90%; background-color: #8abcd1;}
+.word{
+    color:white ;
+    font-weight: bold;
+}
+.word1{
+    color:black ;
+    font-weight: bold;
+}
+#move {
+    
+    animation-name: fade-up;
+    animation-duration: 10s;
+    animation-iteration-count: 1; /*要執行幾次*/
+}
+#move2 {
+    
+    animation-name: fade-up;
+    animation-duration: 14s;
+    animation-iteration-count: 1; /*要執行幾次*/
+}
+#move3 {
+    
+    animation-name: fade-up;
+    animation-duration: 18s;
+    animation-iteration-count: 1; /*要執行幾次*/
+}
+#move4 {
+    
+    animation-name: fade-up;
+    animation-duration: 24s;
+    animation-iteration-count: 1; /*要執行幾次*/
+}
+#move5 {
+    
+    animation-name: fade-up;
+    animation-duration: 30s;
+    animation-iteration-count: 1; /*要執行幾次*/
+}
+#move6 {
+    
+    animation-name: fade-up;
+    animation-duration: 36s;
+    animation-iteration-count: 1; /*要執行幾次*/
+}
+#move7 {
+    
+    animation-name: fade-up;
+    animation-duration: 42s;
+    animation-iteration-count: 1; /*要執行幾次*/
+}
+
+@keyframes fade-up {
+    0% {
+        
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    50% {
+        
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.topbottom{
+    background-color: #d8e3e7;
+}
